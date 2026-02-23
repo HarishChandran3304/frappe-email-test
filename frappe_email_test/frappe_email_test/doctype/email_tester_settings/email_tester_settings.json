@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "creation": "2026-02-23 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "email_account",
+  "default_recipient",
+  "section_ai",
+  "openrouter_api_key",
+  "ai_model"
+ ],
+ "fields": [
+  {
+   "fieldname": "email_account",
+   "fieldtype": "Link",
+   "label": "Email Account",
+   "options": "Email Account"
+  },
+  {
+   "fieldname": "default_recipient",
+   "fieldtype": "Data",
+   "label": "Default Recipient",
+   "options": "Email"
+  },
+  {
+   "fieldname": "section_ai",
+   "fieldtype": "Section Break",
+   "label": "AI Fill (Optional)",
+   "description": "Leave blank to skip AI-powered variable filling. You can still fill Template Args manually."
+  },
+  {
+   "fieldname": "openrouter_api_key",
+   "fieldtype": "Password",
+   "label": "OpenRouter API Key"
+  },
+  {
+   "fieldname": "ai_model",
+   "fieldtype": "Data",
+   "label": "AI Model",
+   "default": "openai/gpt-4o-mini",
+   "description": "Any OpenRouter model slug, e.g. openai/gpt-4o-mini or anthropic/claude-haiku-4-5"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-02-23 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Frappe Email Test",
+ "name": "Email Tester Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

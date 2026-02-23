@@ -1,0 +1,68 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"section-1\",\"type\":\"header\",\"data\":{\"text\":\"Email Tester\",\"col\":12}},{\"id\":\"section-2\",\"type\":\"card\",\"data\":{\"card_name\":\"Email Testing\",\"col\":4}}]",
+ "creation": "2026-02-23 00:00:00.000000",
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "is_hidden": 0,
+ "label": "Email Tester",
+ "links": [
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Testing",
+   "link_count": 0,
+   "onboard": 1,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Test",
+   "link_count": 0,
+   "link_to": "Email Test",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Tester Settings",
+   "link_count": 0,
+   "link_to": "Email Tester Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-23 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Frappe Email Test",
+ "name": "Email Tester",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 99,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "format": "{} Email Tests",
+   "label": "Email Test",
+   "link_to": "Email Test",
+   "stats_filter": "{}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Email Tester"
+}
